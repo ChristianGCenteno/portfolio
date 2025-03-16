@@ -1,5 +1,6 @@
 ---
 layout: default
+![Octocat](https://github.com/ChristianGCenteno/portfolio/assets/img/profile_img.jpeg)
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
