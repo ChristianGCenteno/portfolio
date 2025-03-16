@@ -1,10 +1,10 @@
-# Data Engenieer
+# Data Engineer
 
 ### Education
 HBO, WO
 
 ### Work Experience
-Data Enegieer
+Data Engineer
 - Inetum
 Software Developer
 - Inetum
