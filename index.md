@@ -25,7 +25,24 @@ layout: default
   </div>
 </div>
 
+<section class="projects">
+  <div class="ws-project">
+    <div class="info">
+      <h3>Web Scrap Cardmarket Offers</h3>
+      <p>A project that uses web scraping in an e-commerce to create an analytical report using PowerBI.</p>
+      <ul class="ul-to-tag">
+        <li class="li-to-tag">Python</li>
+        <li class="li-to-tag">PowerBI</li>
+      </ul>
+      <a href="{{ site.baseurl }}/WebScrapCM-pages.html" class="take-look">Take a Look</a>
+    </div>
+    <div class="project-img">
+      <img src="{{ site.baseurl }}/assets/img/WsMain.png" alt="Ws Picture">
+    </div>
+  </div>
 
+    <!-- For futures projects, just replicate the structure -->
+</section>
 
 [Link to another page](./WebScrapCM-pages.html).
 
