@@ -62,7 +62,7 @@
     color: #159957;
 }
 
-.profile-info ul {
+.ul-to-tag {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -71,15 +71,15 @@
   gap: 0.5rem;
 }
 
-.profile-info li {
-  background-color: #e6f1ff; /* color de fondo del tag */
-  color: #003366;            /* color del texto */
-  padding: 0.4em 0.8em;
+.li-to-tag {
+  background-color: #c7e7d7;
+  color: #155b95;
+  padding: 0.1em 0.4em;
   border-radius: 16px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  border: 1px solid #cce0ff;
-  white-space: nowrap;       /* evita que se partan en varias líneas */
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #155b95;
+  white-space: nowrap;      /* evita que se partan en varias líneas */
 }
 
 .profile-info p {
