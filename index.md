@@ -4,6 +4,31 @@ layout: default
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
+## Sobre mí
+
+<div class="profile-card">
+  <img src="/assets/img/Main/profile_img.png" alt="Profile photo" class="profile-pic">
+
+  <div class="profile-info">
+    <h3>Estudios</h3>
+    <p>Grado en Ingeniería Informática - Universidad XYZ</p>
+
+    <h3>Habilidades</h3>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Node.js</li>
+      <li>Python, Django</li>
+    </ul>
+
+    <h3>Resumen</h3>
+    <p>Soy un desarrollador web apasionado por crear soluciones prácticas y visualmente atractivas. Me encanta aprender y colaborar en proyectos tecnológicos innovadores.</p>
+  </div>
+</div>
+
+
+
+
+
 ![Octocat](/assets/img/profile_img.jpeg)
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
