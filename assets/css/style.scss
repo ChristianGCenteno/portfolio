@@ -51,17 +51,35 @@
   border-radius: 12px;
   padding: 0.5rem;
   align-items: center;
+  text-align: left;
   margin-left: 1rem;
 }
 
 .profile-info h3 {
-  margin-bottom: 0.25rem;
-  color: #333;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-weight: normal;
+    color: #159957;
 }
 
 .profile-info ul {
-  margin-top: 0;
-  padding-left: 1.2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.profile-info li {
+  background-color: #e6f1ff; /* color de fondo del tag */
+  color: #003366;            /* color del texto */
+  padding: 0.4em 0.8em;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid #cce0ff;
+  white-space: nowrap;       /* evita que se partan en varias líneas */
 }
 
 .profile-info p {
