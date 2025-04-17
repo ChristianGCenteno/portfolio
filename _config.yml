@@ -4,3 +4,5 @@ github: false
 show_downloads: false
 google_analytics: true
 theme: jekyll-theme-cayman
+include:
+  - assets/css/style.css
