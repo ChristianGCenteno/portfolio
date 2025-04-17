@@ -7,7 +7,7 @@ layout: default
 ## Sobre mí
 
 <div class="profile-card">
-  <img src="/assets/img/Main/profile_img.png" alt="Profile photo" class="profile-pic">
+  <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="Profile photo" class="profile-pic">
 
   <div class="profile-info">
     <h3>Estudios</h3>
