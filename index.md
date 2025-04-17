@@ -21,16 +21,11 @@ layout: default
     </ul>
 
     <h3>SUMMARY</h3>
-    <p>OS Systems and Networking Administrator, later in Computer Engineering by the National University of Distance Education (UNED).</p><p>I worked in the field of insurances as a backend developer based on SQL and later as a support technician and Data Analyst using tools such as Python, PowerBI, PostgreSQL, Azure Devops or Excel in the field of healthcare.</p><p>Interested in the world of innovation, data processing and new technologies. Proactive and organized, I like working in team groups.</p>
+    <p>OS Systems and Networking Administrator, later in Computer Engineering by the National University of Distance Education (UNED).</p><p>I worked in the field of insurances as a backend developer based on SQL and later as a support technician and Data Analyst in the field of healthcare.</p><p>Interested in the world of innovation, data processing and new technologies. Proactive and organized, I like working in team groups.</p>
   </div>
 </div>
 
 
-
-
-
-![Octocat](/assets/img/profile_img.jpeg)
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./WebScrapCM-pages.html).
 
