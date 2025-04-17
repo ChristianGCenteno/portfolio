@@ -36,11 +36,18 @@
   margin-bottom: 1rem;
   font-weight: normal;
   color: #159957;
+  flex-basis: 100%;
+  text-align: center;
 }
 
 .profile-info {
   flex: 1;
   min-width: 250px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 0.5rem;
+  align-items: center;
+  margin-left: 1rem;
 }
 
 .profile-info h3 {
@@ -67,5 +74,7 @@
 
   .profile-info {
     margin-top: 1rem;
+    margin-left: 0; /* Quitamos el margen horizontal */
   }
+  
 }
