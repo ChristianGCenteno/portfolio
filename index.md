@@ -37,7 +37,7 @@ layout: default
       <a href="{{ site.baseurl }}/WebScrapCM-pages.html" class="take-look">Take a Look</a>
     </div>
     <div class="project-img">
-      <img src="{{ site.baseurl }}/assets/img/WsMain.png" alt="Ws Picture">
+      <img src="{{ site.baseurl }}/assets/img/WS-CM/WsMain.png" alt="Ws Picture">
     </div>
   </div>
 
