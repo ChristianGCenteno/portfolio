@@ -26,8 +26,8 @@ layout: default
 </div>
 
 <section class="projects">
-  <div class="ws-project">
-    <div class="info">
+  <div class="project">
+    <div class="project-info">
       <h3>Web Scrap Cardmarket Offers</h3>
       <p>A project that uses web scraping in an e-commerce to create an analytical report using PowerBI.</p>
       <ul class="ul-to-tag">
