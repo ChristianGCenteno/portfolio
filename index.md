@@ -5,21 +5,23 @@ layout: default
 <link rel="stylesheet" href="/assets/css/style.css">
 
 <div class="profile-card">
-  <h2 class="about-me">ABOUT ME</h2>
+  <h2 class="about-me">ABOUT</h2>
   <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="Profile photo" class="profile-pic">
   <div class="profile-info">
-    <h3>Estudios</h3>
-    <p>Grado en Ingeniería Informática - Universidad XYZ</p>
+    <h3>EDUCATION</h3>
+    <p>COMPUTER ENGINEERING DEGREE - UNED <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="UNED logo" class="uned-pic"> </p> 
 
-    <h3>Habilidades</h3>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>React, Node.js</li>
-      <li>Python, Django</li>
+    <h3>PRINCIPAL SKILLS</h3>
+    <ul class="ul-to-tag">
+      <li class="li-to-tag">Data Engenieer</li>
+      <li class="li-to-tag">Data Analyst</li>
+      <li class="li-to-tag">SQL</li>
+      <li class="li-to-tag">Python</li>
+      <li class="li-to-tag">PowerBI</li>
     </ul>
 
-    <h3>Resumen</h3>
-    <p>Soy un desarrollador web apasionado por crear soluciones prácticas y visualmente atractivas. Me encanta aprender y colaborar en proyectos tecnológicos innovadores.</p>
+    <h3>SUMMARY</h3>
+    <p>OS Systems and Networking Administrator, later in Computer Engineering by the National University of Distance Education (UNED).</p><p>I worked in the field of insurances as a backend developer based on SQL and later as a support technician and Data Analyst using tools such as Python, PowerBI, PostgreSQL, Azure Devops or Excel in the field of healthcare.</p><p>Interested in the world of innovation, data processing and new technologies. Proactive and organized, I like working in team groups.</p>
   </div>
 </div>
 
