@@ -60,6 +60,4 @@ layout: default
     <!-- For futures projects, just replicate the structure -->
 </section>
 
-<!-- END -->
-
-<footer><p>For now, this is all</p></footer>
+<!-- END -->    
