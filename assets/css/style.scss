@@ -36,9 +36,9 @@
 }
 
 .uned-pic {
-  height: 1em;         /* iguala el alto al tamaño de letra */
+  height: 1em;         /* same text height */
   vertical-align: middle;
-  margin-left: 0.3em;  /* opcional: espacio entre texto y logo */
+  margin-left: 0em;
 }
 
 /* Texto */
@@ -99,6 +99,15 @@
 }
 
 /* Responsive */
+@media screen and (min-width: 64em) {
+    .main-content {
+        max-width: 64rem;
+        padding: 2rem 3rem;
+        margin: 0 auto;
+        font-size: 1.1rem;
+    }
+}
+
 @media (max-width: 600px) {
   .profile-card {
     flex-direction: column;
