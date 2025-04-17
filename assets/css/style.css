@@ -2,13 +2,3 @@
 .page-header {
   text-align: center;
 }
-
-/* Responsive */
-@media (max-width: 600px) {
-  .project-name {
-    font-size: 2rem;
-  }
-  .project-tagline {
-    font-size: 1rem;
-  }
-}
