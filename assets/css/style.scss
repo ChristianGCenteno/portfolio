@@ -35,6 +35,12 @@
   border: 3px solid #ccc;
 }
 
+.uned-pic {
+  height: 1em;         /* iguala el alto al tamaño de letra */
+  vertical-align: middle;
+  margin-left: 0.3em;  /* opcional: espacio entre texto y logo */
+}
+
 /* Texto */
 .about-me {
   margin-bottom: 1rem;
