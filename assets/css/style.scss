@@ -81,7 +81,7 @@
   margin-top: 3rem;
 }
 
-.proyecto {
+.project {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -93,16 +93,16 @@
   background-color: #fdfdfd;
 }
 
-.proyecto .info {
+.project-info {
   flex: 1 1 300px;
 }
 
-.proyecto .imagen {
+.project-img {
   flex: 1 1 250px;
   text-align: center;
 }
 
-.proyecto .imagen img {
+.project-img img {
   max-width: 100%;
   height: auto;
   border-radius: 6px;
