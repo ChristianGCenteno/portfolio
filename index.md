@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Mi Portfolio
 ---
 
 ![Octocat](/assets/img/profile_img.jpeg)
