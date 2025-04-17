@@ -1,6 +1,7 @@
 ---
 ---
-@import "{{cayman@v0.2.0}}";
+
+@import "{{ site.theme }}";
 
 /* Center the header content */
 .page-header {
