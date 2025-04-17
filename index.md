@@ -5,8 +5,8 @@ layout: default
 <link rel="stylesheet" href="/assets/css/style.css">
 
 <div class="profile-card">
+  <h2 class="about-me">ABOUT ME</h2>
   <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="Profile photo" class="profile-pic">
-  <h2 id=about-me>ABOUT ME</h2>
   <div class="profile-info">
     <h3>Estudios</h3>
     <p>Grado en Ingeniería Informática - Universidad XYZ</p>
