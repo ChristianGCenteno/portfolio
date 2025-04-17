@@ -1,6 +1,8 @@
 ---
-layout: tittle
+layout: default
+title: Mi Portfolio
 ---
+
 ![Octocat](/assets/img/profile_img.jpeg)
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
