@@ -73,6 +73,57 @@
     color: #155b95;
 }
 
+/* PROYECT LISTS SECCION */
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.proyecto {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+}
+
+.proyecto .info {
+  flex: 1 1 300px;
+}
+
+.proyecto .imagen {
+  flex: 1 1 250px;
+  text-align: center;
+}
+
+.proyecto .imagen img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.take-look {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  background-color: #007acc;
+  color: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.take-look:hover {
+  background-color: #005f99;
+}
+
+
 /* General Transformation */
 .ul-to-tag {
   list-style: none;
