@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<link rel="stylesheet" href="/assets/css/style.css">
+
 ![Octocat](/assets/img/profile_img.jpeg)
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
