@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.png" type="image/png">
+<link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.ico" type="image/ico">
 <link rel="stylesheet" href="/assets/css/style.css">
 
 <div class="profile-card">
