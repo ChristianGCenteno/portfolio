@@ -61,3 +61,5 @@ layout: default
 </section>
 
 <!-- END -->
+
+<footer><p>For now, this is all</p></footer>
