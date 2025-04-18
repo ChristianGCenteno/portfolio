@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<link rel="icon" type="image/png" href="/assets/img/favicon.png"/>
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon.png" />
 <link rel="stylesheet" href="/assets/css/style.css">
 
 <div class="profile-card">
@@ -13,7 +13,7 @@ layout: default
 
     <h3>PRINCIPAL SKILLS</h3>
     <ul class="ul-to-tag">
-      <li class="li-to-tag">Data Engenieer</li>
+      <li class="li-to-tag">Data Engineer</li>
       <li class="li-to-tag">Data Analyst</li>
       <li class="li-to-tag">SQL</li>
       <li class="li-to-tag">Python</li>
@@ -21,7 +21,10 @@ layout: default
     </ul>
 
     <h3>SUMMARY</h3>
-    <p>OS Systems and Networking Administrator, later in Computer Engineering by the National University of Distance Education (UNED).</p><p>I worked in the field of insurances as a backend developer based on SQL and later as a support technician and Data Analyst in the field of healthcare.</p><p>Interested in the world of innovation, data processing and new technologies. Proactive and organized, I like working in team groups.</p>
+    <p>Former OS Systems and Networking Administrator, currently holding a Computer Engineering degree from the National University of Distance Education (UNED).</p>
+    <p>Experience in the insurance sector as a SQL-based backend developer, later transitioning into healthcare as a support technician and data analyst.</p>
+    <p>Passionate about innovation, data processing, and emerging technologies. I am proactive, organized, and enjoy collaborating in team environments.</p>
+
   </div>
 </div>
 
