@@ -42,8 +42,7 @@ layout: default
       <img src="{{ site.baseurl }}/assets/img/WS-CM/WsMain.png" alt="Ws Picture">
     </div>
   </div>
-
-<section class="projects">
+  
   <div class="project">
     <div class="project-info">
       <h3>Web Scrap Cardmarket Offers</h3>
