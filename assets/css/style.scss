@@ -93,6 +93,13 @@
   background-color: #fdfdfd;
 }
 
+.project:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+
 .project-info {
   flex: 1 1 300px;
 }
@@ -123,6 +130,7 @@
   padding: 0.1rem 0.4rem;
   border-radius: 5px;
   font-size: 0.9rem;
+  transition: all 0.3s ease-in-out;
 }
 
 .take-look:hover {
@@ -151,10 +159,6 @@
   font-weight: 400;
   border: 1px solid #155b95;
   white-space: nowrap;      /* evita que se partan en varias líneas */
-}
-
-.profile-info p {
-  margin-bottom: 1rem;
 }
 
 /* Responsive */
