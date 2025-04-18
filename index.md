@@ -80,11 +80,12 @@ layout: default
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
-          observer.unobserve(entry.target); // onces 
+        } else {
+          entry.target.classList.remove('visible');
         }
       });
     }, {
-      threshold: 0.2
+      threshold: 0.2 // effect
     });
 
     projects.forEach(project => {
