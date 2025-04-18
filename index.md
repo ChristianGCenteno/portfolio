@@ -3,6 +3,8 @@ layout: default
 ---
 <link rel="stylesheet" href="/assets/css/style.css">
 
+* * *
+
 <div class="profile-card">
   <h2 class="about-me">ABOUT</h2>
   <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="Profile photo" class="profile-pic">
@@ -28,6 +30,7 @@ layout: default
 </div>
 
 <section class="projects">
+
   <div class="project">
     <div class="project-info">
       <h3>Web Scrap Cardmarket Offers</h3>
@@ -36,10 +39,10 @@ layout: default
         <li class="li-to-tag">Python</li>
         <li class="li-to-tag">PowerBI</li>
       </ul>
-      <a href="{{ site.baseurl }}/WebScrapCM-pages.html" class="take-look">Take a Look</a>
+      <a href="{{ site.baseurl }}/pages/WebScrapCM-pages.html" class="take-look">Take a Look</a>  <!-- <= Where I put the project page -->
     </div>
     <div class="project-img">
-      <img src="{{ site.baseurl }}/assets/img/WS-CM/WsMain.png" alt="Ws Picture">
+      <img src="{{ site.baseurl }}/assets/img/WS-CM/WsMain.png" alt="Ws Picture"> <!-- <= Where I put the project img -->
     </div>
   </div>
   
@@ -51,10 +54,10 @@ layout: default
         <li class="li-to-tag">Python</li>
         <li class="li-to-tag">PowerBI</li>
       </ul>
-      <a href="{{ site.baseurl }}/WebScrapCM-pages.html" class="take-look">Take a Look</a>
+      <a href="{{ site.baseurl }}/pages/WebScrapCM-pages.html" class="take-look">Take a Look</a>  <!-- <= Where I put the project page -->
     </div>
     <div class="project-img">
-      <img src="{{ site.baseurl }}/assets/img/WS-CM/WsMain.png" alt="Ws Picture">
+      <img src="{{ site.baseurl }}/assets/img/WS-CM/WsMain.png" alt="Ws Picture"> <!-- <= Where I put the project img -->
     </div>
   </div>
 
