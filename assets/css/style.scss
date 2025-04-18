@@ -3,7 +3,12 @@
 
 @import "{{ site.theme }}";
 
-/* Center the header content */
+
+/* ====================
+	HEADER SEGMENT 
+=====================*/
+
+/* CENTER THE HEADER CONTENT */
 .page-header {
   text-align: center;
   justify-content: center;
@@ -13,7 +18,12 @@
   margin-bottom: 0
 }
 
-/* Ficha de presentación */
+
+/* ====================
+	PROFILE SEGMENT 
+=====================*/
+
+/* PRESENTATION PROFILE CARD */
 .profile-card {
   display: flex;
   gap: 0.5rem;
@@ -26,7 +36,7 @@
   flex-wrap: wrap; /* responsive */
 }
 
-/* Imagen de perfil */
+/* PIC PROFILE */
 .profile-pic {
   width: 150px;
   height: 150px;
@@ -35,21 +45,7 @@
   border: 3px solid #ccc;
 }
 
-.uned-pic {
-  height: 1em;         /* same text height */
-  vertical-align: middle;
-  margin-left: 0em;
-}
-
-/* Texto */
-.about-me {
-  margin-bottom: 1rem;
-  font-weight: normal;
-  color: #159957;
-  flex-basis: 100%;
-  text-align: center;
-}
-
+/* PROFILE INFO BOX */
 .profile-info {
   flex: 1;
   min-width: 250px;
@@ -61,6 +57,7 @@
   margin-left: 1rem;
 }
 
+/* PROFILE H3 */
 .profile-info h3 {
     margin-top: 1rem;
     margin-bottom: 0;
@@ -68,12 +65,27 @@
     color: #159957;
 }
 
+/* SUMMARY TEXT */
+.about-me {
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #159957;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+/* SUMMARY P */
 .profile-info p {
     margin-bottom: 1rem;
     color: #155b95;
 }
 
-/* PROYECT LISTS SECCION */
+
+/* =======================
+	PROYECTS LIST SECTION 
+========================*/
+
+/* PROJECTS BOX */
 .projects {
   display: flex;
   flex-direction: column;
@@ -81,6 +93,7 @@
   margin-top: 3rem;
 }
 
+/* PROJECT BOX */
 .project {
   display: flex;
   flex-wrap: wrap;
@@ -91,36 +104,51 @@
   padding: 1.5rem;
   border-radius: 8px;
   background-color: #fdfdfd;
+  
+  /* animation styles*/
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
+/* PROJECT BOX VISIBLE */
+.project.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* PROJECT HOVER */
 .project:hover {
   transform: scale(1.01);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease-in-out;
 }
 
-
+/* PROYECT TEXT */
 .project-info {
   flex: 1 1 300px;
 }
 
+/* PROYECT P */
 .project-info p {
     margin-bottom: 1rem;
     color: #155b95;
 }
 
-
+/* PIC PROYECT BOX */
 .project-img {
   flex: 1 1 250px;
   text-align: center;
 }
 
+/* PIC PROYECT */
 .project-img img {
   max-width: 100%;
   height: auto;
   border-radius: 6px;
 }
 
+/* TL BUTTON */
 .take-look {
   display: inline-block;
   margin-top: 0.5rem;
@@ -133,6 +161,7 @@
   transition: all 0.3s ease-in-out;
 }
 
+/* TL BUTTON */
 .take-look:hover {
   background-color: black;
   color: white;
@@ -140,7 +169,18 @@
 }
 
 
-/* General Transformation */
+/* =======================
+	GENERAL STYLES TRANS 
+========================*/
+
+/* LOGOS IN TEXT */
+.logo-text {
+  height: 1em;         /* same text height */
+  vertical-align: middle;
+  margin-left: 0em;
+}
+
+/* UL TO TAGS */
 .ul-to-tag {
   list-style: none;
   padding: 0;
@@ -150,6 +190,7 @@
   gap: 0.5rem;
 }
 
+/* LI TO TAGS */
 .li-to-tag {
   background-color: #c7e7d7;
   color: #155b95;
@@ -161,7 +202,29 @@
   white-space: nowrap;      /* evita que se partan en varias líneas */
 }
 
-/* Responsive */
+
+/* ====================
+	FOOTER SEGMENT 
+=====================*/
+
+/* -- DELETE DEFAULT FOOTER --*/
+.site-footer {
+    display: none;
+}
+
+/* -- CUSTOM FOOTER STYLE --*/
+.custom-footer {
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: solid 1px #eff0f1;
+}
+
+
+/* ====================
+	RESPONSIVE SEGMENT 
+=====================*/
+
+/* -- FIT THE BODY --*/
 @media screen and (min-width: 64em) {
     .main-content {
         max-width: 64rem;
@@ -171,6 +234,7 @@
     }
 }
 
+/* -- SMART PHONE AND TABLETS SCREEN --*/
 @media (max-width: 600px) {
   .profile-card {
     flex-direction: column;
@@ -183,11 +247,4 @@
     margin-left: 0; /* Quitamos el margen horizontal */
   }
   
-}
-
-.site-footer {
-    padding-top: 2rem;
-    margin-top: 2rem;
-    border-top: solid 1px #eff0f1;
-    display: none;
 }

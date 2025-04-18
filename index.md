@@ -3,12 +3,33 @@ layout: default
 ---
 <link rel="stylesheet" href="/assets/css/style.css">
 
+<!-- ANIMATION PROJECT STYLE -->
+<script>
+  // DETECT .project ITEMS
+  const projects = document.querySelectorAll('.project');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // ONE TIME
+      }
+    });
+  }, {
+    threshold: 0.1
+  });
+
+  projects.forEach(project => {
+    observer.observe(project);
+  });
+</script>
+
 <div class="profile-card">
   <h2 class="about-me">ABOUT</h2>
   <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="Profile photo" class="profile-pic">
   <div class="profile-info">
     <h3>EDUCATION</h3>
-    <p>COMPUTER ENGINEERING DEGREE - UNED <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="UNED logo" class="uned-pic"> </p> 
+    <p>COMPUTER ENGINEERING DEGREE - UNED <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="UNED logo" class="logo-text"> </p> 
 
     <h3>PRINCIPAL SKILLS</h3>
     <ul class="ul-to-tag">
@@ -68,6 +89,6 @@ layout: default
 <div class="custom-footer" style="text-align: center; padding: 1rem; font-size: 0.8rem; color: gray;">
   We can connect in: | 
   <a href="https://www.linkedin.com/in/christian-gabriel-centeno-0b19aa2a1" target="_blank">
-    Linkedin Profile
+    Linkedin Profile <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="UNED logo" class="logo-text">
   </a>
 </div>
