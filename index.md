@@ -3,8 +3,6 @@ layout: default
 ---
 <link rel="stylesheet" href="/assets/css/style.css">
 
-* * *
-
 <div class="profile-card">
   <h2 class="about-me">ABOUT</h2>
   <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="Profile photo" class="profile-pic">
@@ -28,6 +26,8 @@ layout: default
 
   </div>
 </div>
+
+* * *
 
 <section class="projects">
 

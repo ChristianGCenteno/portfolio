@@ -6,12 +6,17 @@ description: Christian Gabriel Centeno
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
-[HOME](./)
-[project repository](https://github.com/ChristianGCenteno/webScrapingCM)
+<div class="project-buttons-header">
+  <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/img/Main/home-ico.png" alt="home ico" class="logo-text"></a>
+  <a href="https://github.com/ChristianGCenteno/webScrapingCM">project repository</a> <!-- Where I put my repo -->
+</div>
 
 # The Mission
 
-The target was to create a Python executable applying Data Engineer concepts that scrap the data hosted in an e-comerce (`CardMarket`), transform it into useful data and load it in csv file. Onces, applied Data Analystics works with PowerBI to make an analysis reports.
+<div class="project-mision">
+  <p>The target was to create a Python executable applying Data Engineer concepts that scrap the data hosted in an e-comerce (<img src="{{ site.baseurl }}/assets/img/WS-CM/cardmarket-ico.png" alt="carmarket ico" class="logo-text">), transform it into useful data and load it in csv file. Onces, applied Data Analystics works with PowerBI to make an analysis reports.</p>
+</div>
+
 
 ```
 For all the information, you can go tho the project repository
@@ -32,45 +37,34 @@ For all the information, you can go tho the project repository
   
 </div>
   
-- Python
-  - Pandas
-  - Selenium
-  - BeatifulSoup
-  - ThreadPoolExecutor
-    
-- PowerBI 
-
 
 * * *
 
 
 ### Python Process 
 
-<div class="tools-box">
-  
-  <ul class="ul-to-tag">
-    <li class="li-to-tag">Python</li>
-    <li class="li-to-tag">Pandas</li>
-    <li class="li-to-tag">Selenium</li>
-    <li class="li-to-tag">BeatifulSoup</li>
-    <li class="li-to-tag">ThreadPoolExecutor</li>
-	<li class="li-to-tag">PowerBI</li>
-  </ul>
-  
+<div class="pages-describe-box">
+ 
+  <div class="pages-project-img">
+    <img src="{{ site.baseurl }}/assets/img/WS-CM/PyArch.png" alt="PyArch Pic"> <!-- <= Where I put the project img -->
+  </div>
+  <div class="pages-project-info">
+    <<!-- <h3>Su</h3> -->
+      <p>A project that uses web scraping in an e-commerce to create an analytical report using PowerBI.</p>
+  </div>
 </div>
 
 ### PowerBI Dashboards
 
-<div class="tools-box">
-  
-  <ul class="ul-to-tag">
-    <li class="li-to-tag">Python</li>
-    <li class="li-to-tag">Pandas</li>
-    <li class="li-to-tag">Selenium</li>
-    <li class="li-to-tag">BeatifulSoup</li>
-    <li class="li-to-tag">ThreadPoolExecutor</li>
-	<li class="li-to-tag">PowerBI</li>
-  </ul>
+<div class="pages-describe-box">
+ 
+  <div class="pages-project-img">
+    <img src="{{ site.baseurl }}/assets/img/WS-CM/PbiSample.png" alt="PbiSample Pic"> <!-- <= Where I put the project img -->
+  </div>
+  <div class="pages-project-info">
+    <<!-- <h3>Su</h3> -->
+      <p>A project that uses web scraping in an e-commerce to create an analytical report using PowerBI.</p>
+  </div
   
 </div>
 
