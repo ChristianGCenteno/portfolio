@@ -27,7 +27,7 @@ layout: default
   </div>
 </div>
 
-</br>
+<br>
 * * *
 
 <section class="projects">

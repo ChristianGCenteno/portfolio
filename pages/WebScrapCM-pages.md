@@ -8,7 +8,7 @@ description: Christian Gabriel Centeno
 
 <div class="project-buttons-header">
   <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/img/Main/home-ico.png" alt="home ico" class="logo-home"></a>
-  <a href="https://github.com/ChristianGCenteno/webScrapingCM" class="take-look">project repository</a> <!-- Where I put my repo -->
+  <a href="https://github.com/ChristianGCenteno/webScrapingCM" class="take-look">Project repository</a> <!-- Where I put my repo -->
 </div>
 
 # The Mission
@@ -37,6 +37,7 @@ For all the information, you can go tho the project repository
   
 </div>
   
+<br>
 
 * * *
 
