@@ -8,7 +8,7 @@ layout: default
   <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="Profile photo" class="profile-pic">
   <div class="profile-info">
     <h3>EDUCATION</h3>
-    <p>COMPUTER ENGINEERING DEGREE - UNED <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="UNED logo" class="logo-text"> </p> 
+    <p><img src="{{ site.baseurl }}/assets/img/Main/uned-ico.png" alt="UNED logo" class="logo-text"> UNED | COMPUTER ENGINEERING DEGREE</p> 
 
     <h3>PRINCIPAL SKILLS</h3>
     <ul class="ul-to-tag">
@@ -67,7 +67,7 @@ layout: default
 <div class="custom-footer" style="text-align: center; padding: 1rem; font-size: 0.8rem; color: gray;">
   We can connect in | 
   <a href="https://www.linkedin.com/in/christian-gabriel-centeno-0b19aa2a1" target="_blank">
-    Linkedin Profile <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="UNED logo" class="logo-text">
+    <img src="{{ site.baseurl }}/assets/img/Main/linkedin-ico.png" alt="Linkedin logo" class="logo-text"> Profile
   </a>
 </div>
 
