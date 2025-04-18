@@ -76,16 +76,22 @@ layout: default
   document.addEventListener('DOMContentLoaded', () => {
     const projects = document.querySelectorAll('.project');
 
+    let lastScrollY = window.scrollY;
+
     const observer = new IntersectionObserver((entries) => {
+      const currentScrollY = window.scrollY;
+      const scrollingUp = currentScrollY < lastScrollY;
+      lastScrollY = currentScrollY;
+
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
-        } else {
+        } else if (scrollingUp) {
           entry.target.classList.remove('visible');
         }
       });
     }, {
-      threshold: 0.2 // effect
+      threshold: 0.2
     });
 
     projects.forEach(project => {
