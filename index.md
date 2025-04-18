@@ -27,13 +27,14 @@ layout: default
   </div>
 </div>
 
+</br>
 * * *
 
 <section class="projects">
 
   <div class="project">
     <div class="project-info">
-      <h3>Web Scrap Cardmarket Offers</h3>
+      <h3>Exploring Cardmarket with Web Scraping</h3> <!-- Project Title -->
       <p>A project that uses web scraping in an e-commerce to create an analytical report using PowerBI.</p>
       <ul class="ul-to-tag">
         <li class="li-to-tag">Python</li>
@@ -45,23 +46,9 @@ layout: default
       <img src="{{ site.baseurl }}/assets/img/WS-CM/WsMain.png" alt="Ws Picture"> <!-- <= Where I put the project img -->
     </div>
   </div>
-  
-  <div class="project">
-    <div class="project-info">
-      <h3>Web Scrap Cardmarket Offers</h3>
-      <p>A project that uses web scraping in an e-commerce to create an analytical report using PowerBI.</p>
-      <ul class="ul-to-tag">
-        <li class="li-to-tag">Python</li>
-        <li class="li-to-tag">PowerBI</li>
-      </ul>
-      <a href="{{ site.baseurl }}/pages/WebScrapCM-pages.html" class="take-look">Take a Look</a>  <!-- <= Where I put the project page -->
-    </div>
-    <div class="project-img">
-      <img src="{{ site.baseurl }}/assets/img/WS-CM/WsMain.png" alt="Ws Picture"> <!-- <= Where I put the project img -->
-    </div>
-  </div>
-
+ 
     <!-- For futures projects, just replicate the structure -->
+	
 </section>
 
 <!-- END -->

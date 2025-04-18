@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Web Scrap of the Card Market Offers
+title: Exploring Cardmarket with Web Scraping
 description: Christian Gabriel Centeno
 ---
 
 <link rel="stylesheet" href="/assets/css/style.css">
 
 <div class="project-buttons-header">
-  <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/img/Main/home-ico.png" alt="home ico" class="logo-text"></a>
-  <a href="https://github.com/ChristianGCenteno/webScrapingCM">project repository</a> <!-- Where I put my repo -->
+  <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/assets/img/Main/home-ico.png" alt="home ico" class="logo-home"></a>
+  <a href="https://github.com/ChristianGCenteno/webScrapingCM" class="take-look">project repository</a> <!-- Where I put my repo -->
 </div>
 
 # The Mission
@@ -49,8 +49,8 @@ For all the information, you can go tho the project repository
     <img src="{{ site.baseurl }}/assets/img/WS-CM/PyArch.png" alt="PyArch Pic"> <!-- <= Where I put the project img -->
   </div>
   <div class="pages-project-info">
-    <<!-- <h3>Su</h3> -->
-      <p>A project that uses web scraping in an e-commerce to create an analytical report using PowerBI.</p>
+    <!-- <h3>Su</h3> -->
+      <p>Data was collected from a list of web URLs and processed using Python.</p>
   </div>
 </div>
 
@@ -62,9 +62,9 @@ For all the information, you can go tho the project repository
     <img src="{{ site.baseurl }}/assets/img/WS-CM/PbiSample.png" alt="PbiSample Pic"> <!-- <= Where I put the project img -->
   </div>
   <div class="pages-project-info">
-    <<!-- <h3>Su</h3> -->
-      <p>A project that uses web scraping in an e-commerce to create an analytical report using PowerBI.</p>
-  </div
+    <!-- <h3>Su</h3> -->
+      <p>Using the data extracted earlier, we built a Power BI dashboard for analysis and insights.</p>
+  </div>
   
 </div>
 

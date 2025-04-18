@@ -174,13 +174,13 @@
 	PROYECTS PAGES SECTION 
 ========================*/
 
-/* Mission P */
+/* MISSION P */
 .project-mision p {
     margin-bottom: 1rem;
     color: #155b95;
 }
 
-/* project info P */
+/* PAGES PROJECT INFO P */
 .pages-project-info p {
     margin-bottom: 1rem;
     color: #155b95;
@@ -195,7 +195,13 @@
   height: 1em;         /* same text height */
   vertical-align: middle;
   margin-left: 0em;
-}
+
+/* HOME ICO */
+.logo-home {
+  height: 2em;         
+  vertical-align: middle;
+  margin-left: 0em;
+
 
 /* UL TO TAGS */
 .ul-to-tag {
