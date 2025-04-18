@@ -65,7 +65,7 @@ layout: default
     
 <!-- Custom footer -->
 <div class="custom-footer" style="text-align: center; padding: 1rem; font-size: 0.8rem; color: gray;">
-  We can connect in: | 
+  We can connect in | 
   <a href="https://www.linkedin.com/in/christian-gabriel-centeno-0b19aa2a1" target="_blank">
     Linkedin Profile <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="UNED logo" class="logo-text">
   </a>
@@ -73,21 +73,22 @@ layout: default
 
 <!-- ANIMATION PROJECT STYLE -->
 <script>
-  // DETECT .project ITEMS
-  const projects = document.querySelectorAll('.project');
+  document.addEventListener('DOMContentLoaded', () => {
+    const projects = document.querySelectorAll('.project');
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target); // ONE TIME
-      }
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target); // onces 
+        }
+      });
+    }, {
+      threshold: 0.2
     });
-  }, {
-    threshold: 0.1
-  });
 
-  projects.forEach(project => {
-    observer.observe(project);
+    projects.forEach(project => {
+      observer.observe(project);
+    });
   });
 </script>
