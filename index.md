@@ -34,6 +34,23 @@ layout: default
 
   <div class="project">
     <div class="project-info">
+      <h3>Weather and Pollution Data Visualizer for Dutch Cities</h3> <!-- Project Title -->
+      <p>A project that uses API Integration, SQL Translation, AND GUI Implementation to Visualizer any weather location.</p>
+      <ul class="ul-to-tag">
+        <li class="li-to-tag">Python</li>
+        <li class="li-to-tag">API pipelines</li>
+		<li class="li-to-tag">SQLite</li>
+		<li class="li-to-tag">PyQt5</li>
+      </ul>
+      <a href="{{ site.baseurl }}/pages/WeatherAPI-pages.html" class="take-look">Take a Look</a>  <!-- <= Where I put the project page -->
+    </div>
+    <div class="project-img">
+      <img src="{{ site.baseurl }}/assets/img/Weather-API/WAPIMain.png" alt="WAPI Picture"> <!-- <= Where I put the project img -->
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-info">
       <h3>Exploring Cardmarket with Web Scraping</h3> <!-- Project Title -->
       <p>A project that uses web scraping in an e-commerce to create an analytical report using PowerBI.</p>
       <ul class="ul-to-tag">
