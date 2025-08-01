@@ -14,7 +14,7 @@ description: Christian Gabriel Centeno
 # The Mission
 
 <div class="project-mision">
-  <p>The objective of the project is to be able to extract the API information in JSON format using API calls (<img src="{{ site.baseurl }}/assets/img/Weather-API/openweather-ico.png" alt="openweather ico" class="logo-text">) using Python pipelines, store the information in an SQLite database and manipulate the information through a GUI application.</p>
+  <p>The objective of the project is to be able to extract the API information in JSON format using API calls <img src="{{ site.baseurl }}/assets/img/Weather-API/openweather-ico.png" alt="openweather ico" class="logo-text"> using Python pipelines, store the information in an SQLite database and manipulate the information through a GUI application.</p>
 </div>
 
 
