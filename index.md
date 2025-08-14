@@ -35,7 +35,7 @@ layout: default
   <div class="project">
     <div class="project-info">
       <h3>Weather and Pollution Data Visualizer for Dutch Cities</h3> <!-- Project Title -->
-      <p>A project that uses API Integration, SQL Translation, AND GUI Implementation to Visualizer any weather location.</p>
+      <p>A project that uses API Integration, SQL Translation and GUI Implementation to Visualizer any weather location.</p>
       <ul class="ul-to-tag">
         <li class="li-to-tag">Python</li>
         <li class="li-to-tag">API pipelines</li>
