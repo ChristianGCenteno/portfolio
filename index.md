@@ -4,25 +4,25 @@ layout: default
 <link rel="stylesheet" href="/assets/css/style.css">
 
 <div class="profile-card">
-  <h2 class="about-me">ABOUT</h2>
+  <h2 class="about-me">ABOUT ME</h2>
   <img src="{{ site.baseurl }}/assets/img/Main/profile_img.png" alt="Profile photo" class="profile-pic">
   <div class="profile-info">
     <h3>EDUCATION</h3>
-    <p><img src="{{ site.baseurl }}/assets/img/Main/uned-ico.png" alt="UNED logo" class="logo-text"> UNED | COMPUTER ENGINEERING DEGREE</p> 
+    <p><img src="{{ site.baseurl }}/assets/img/Main/uned-ico.png" alt="UNED logo" class="logo-text"> UNED | COMPUTER ENGINEERING</p> 
 
-    <h3>PRINCIPAL SKILLS</h3>
+    <h3>KEY SKILLS</h3>
     <ul class="ul-to-tag">
+	  <li class="li-to-tag">Data Analyst</li>
       <li class="li-to-tag">Data Engineer</li>
-      <li class="li-to-tag">Data Analyst</li>
       <li class="li-to-tag">SQL</li>
       <li class="li-to-tag">Python</li>
       <li class="li-to-tag">PowerBI</li>
     </ul>
 
     <h3>SUMMARY</h3>
-    <p>Former OS Systems and Networking Administrator, currently holding a Computer Engineering degree from the National University of Distance Education (UNED).</p>
-    <p>Experience in the insurance sector as a SQL-based backend developer, later transitioning into healthcare as a support technician and data analyst.</p>
-    <p>Passionate about innovation, data processing, and emerging technologies. I am proactive, organized, and enjoy collaborating in team environments.</p>
+    <p>I'm a freelance Data Specialist based in the Netherlands with a Computer Engineering degree from the National University of Distance Education (UNED).</p>
+    <p>I have 4 years of experience across SQL development, BI, data analysis and engineering. My background ranges from building SQL procedures and automating workflows, to creating dashboards in Power BI and supporting data-driven decision making.</p>
+    <p>I enjoy adapting quickly to new environments, learning continuously and helping teams turn complex data into actionable insights.</p>
 
   </div>
 </div>
@@ -64,7 +64,7 @@ layout: default
     </div>
   </div>
  
-    <!-- For futures projects, just replicate the structure -->
+  <!-- For futures projects, just replicate the structure -->
 	
 </section>
 
